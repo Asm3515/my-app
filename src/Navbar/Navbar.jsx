@@ -3,7 +3,7 @@
 import React from 'react';
 import './Navbar.css';
 import { useState } from 'react';
-import Section from '../Section/Section';
+
 
 
 export const Navbar = () => {
