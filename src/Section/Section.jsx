@@ -13,7 +13,7 @@ const Section = () => {
     <div>
       <section id='profile' className='profile-section'>
         <div className='section-pic-container'>
-          <img className="profile-pic" src={require("../Assets/profile-pic.jpg")} alt="Ajinkya More's profile picture" />
+          <img className="profile-pic" src={require("../Assets/profile-pic.jpg")} alt="Ajinkya More profile picture" />
         </div>
         <div className="section__text">
           <p className="section__text__p1">Hello, I'm</p>
