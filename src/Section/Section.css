@@ -60,6 +60,7 @@ section {
   .title {
     font-size: 3rem;
     text-align: center;
+    
   }
   
   #socials-container {
@@ -198,6 +199,7 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    overflow-x: auto;
 }
 
 .article-container {
@@ -279,13 +281,11 @@ article .icon {
 
 
   .icon-project {
-    height: 600px;
+    height: 500px;
     width: 600px;
   }
 
-  #projects {
-    overflow-x: auto;
-  }
+ 
 
 /* FOOTER SECTION */
 
@@ -298,3 +298,13 @@ footer {
     text-align: center;
   }
   
+
+  #projects {
+    overflow-x: auto;
+    position: relative;
+  }
+  
+
+  .last-link{
+    align-items: center;
+  }

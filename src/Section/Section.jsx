@@ -334,7 +334,7 @@ const Section = () => {
         <div className="about-containers">
           <div className="details-container">
             <h2 className="experience-sub-title">NLP - Autograder(QA google Palm)</h2>
-            <div className="article-container">
+            <div className="article-container-project">
               <article>
                 <img
                   src={require("../Assets/Autograder.png")}
@@ -429,6 +429,7 @@ const Section = () => {
           </ul>
         </div>
       </nav>
+      <a className="last-link" href='https://www.youtube.com/watch?v=ldwlOzRvYOU&t=240s'><p>I Converted this basic HTML,JS,CSS tutorial to React Website</p></a>
       <p>Copyright &#169; 2024 Ajinkya S More. All Rights Reserved.</p>
     </footer>
     </div>
