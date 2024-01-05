@@ -3,6 +3,7 @@
 import React from 'react';
 import './Navbar.css';
 import { useState } from 'react';
+import Section from '../Section/Section';
 
 
 export const Navbar = () => {
@@ -11,16 +12,22 @@ export const Navbar = () => {
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <nav className='desktop-nav'>
     <nav>
       <div className="logo">
         <div className="name">Ajinkya More</div>
         <ul className="nav-links">
-          <li><a href='/about'>About</a></li>
-          <li><a href='/experience'>Experience</a></li>
-          <li><a href='/projects'>Projects</a></li>
-          <li><a href='/contact'>Contact</a></li>
+              <li><a onClick={() => scrollToSection('about')}>About</a></li>
+              <li><a onClick={() => scrollToSection('experience')}>Experience</a></li>
+              <li><a onClick={() => scrollToSection('projects')}>Projects</a></li>
+              <li><a onClick={() => scrollToSection('contact')}>Contact</a></li>
         </ul>
       </div>
       <nav className='hamburger-nav'>

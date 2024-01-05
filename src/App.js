@@ -1,5 +1,5 @@
 import { Navbar } from "./Navbar/Navbar";
-import Section from "./Section/Section";
+import Section  from "./Section/Section";
 import "./App.css"
 
 function App() {

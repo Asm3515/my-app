@@ -19,6 +19,11 @@ section {
   
   }
 
+  .profile-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 /* PROFILE */
 
 #profile {
@@ -28,11 +33,9 @@ section {
     height: 80vh;
   }
   
-  .section__pic-container {
+  .section-pic-container {
     display: flex;
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
+    margin-right: 20px;
   }
   
   .section__text {
@@ -46,10 +49,11 @@ section {
   
   .section__text__p1 {
     text-align: center;
+    font-size: 1.5rem;
   }
   
   .section__text__p2 {
-    font-size: 1.75rem;
+    font-size: 3.75rem;
     margin-bottom: 1rem;
   }
   
@@ -69,7 +73,7 @@ section {
   
   .icon {
     cursor: pointer;
-    height: 2rem;
+    height: 4rem;
   }
   
   /* BUTTONS */
@@ -84,8 +88,9 @@ section {
     font-weight: 600;
     transition: all 300ms ease;
     padding: 1rem;
-    width: 8rem;
-    border-radius: 2rem;
+    width: 12rem;
+    border-radius: 4rem;
+    font-size: 1rem;
   }
   
   .btn-color-1,
@@ -119,3 +124,177 @@ section {
   .btn-container {
     gap: 1rem;
   }
+
+
+
+  /* ABOUT SECTION */
+
+#about {
+    position: relative;
+  }
+  
+  .about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .about-details-container {
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .about-containers,
+  .about-details-container {
+    display: flex;
+    font-size: 1.2rem;
+  }
+  
+  .about-pic {
+    border-radius: 2rem;
+  }
+  
+  .arrow {
+    position: absolute;
+    right: 0rem;
+    bottom: 2.5rem;
+    
+  }
+  
+  .details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+  }
+  
+  .section-container {
+    gap: 4rem;
+    height: 80%;
+  }
+  
+  .section__pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+  }
+
+
+  #experience {
+    position: relative;
+}
+
+.experience-sub-title {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+.article-container > div {
+    width: 30%; /* Adjust the width of each div to control the layout */
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    
+}
+
+article .icon {
+    cursor: default;
+    height: 2rem;
+}
+
+.article-text{
+    text-align: center;
+    font-size: 1rem;
+}
+  
+
+
+/* CONTACT */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+    position: relative;
+  }
+  
+  .contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
+    margin: 2rem auto;
+    padding: 0.5rem;
+  }
+  
+  .contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+  }
+  
+  .contact-info-container p {
+    font-size: 2.0rem;
+  }
+  
+  .contact-icon {
+    cursor: default;
+    height: 2.5rem ;
+    size: 2rem;
+  }
+  
+  .email-icon {
+    height: 2.5rem;
+    size: 2rem;
+  }
+
+
+  .icon-project {
+    height: 600px;
+    width: 600px;
+  }
+
+  #projects {
+    overflow-x: auto;
+  }
+
+/* FOOTER SECTION */
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+  }
+  
+  footer p {
+    text-align: center;
+  }
+  
