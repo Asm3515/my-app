@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.3beb979c.css",
+    "main.js": "/my-app/static/js/main.fc71ffe8.js",
+    "static/media/Netflix_DashBoard.png": "/my-app/static/media/Netflix_DashBoard.2b809a4e4bc7a39b3317.png",
+    "static/media/Resume-review.png": "/my-app/static/media/Resume-review.4b5fe927f928c54df179.png",
+    "static/media/HeartDis.jpg": "/my-app/static/media/HeartDis.da1f494e61ba3988e66a.jpg",
+    "static/media/Autograder.png": "/my-app/static/media/Autograder.c9fa083fe5994862dbc0.png",
+    "static/media/profile-pic.jpg": "/my-app/static/media/profile-pic.ffb1fb62c79b6eeeacd9.jpg",
+    "static/media/email.png": "/my-app/static/media/email.761df3bc69bdc631bd2f.png",
+    "static/media/checkmark.png": "/my-app/static/media/checkmark.86728d9a224a2c7c95d4.png",
+    "static/media/linkedin.png": "/my-app/static/media/linkedin.032cf8a63be2f0f4d425.png",
+    "index.html": "/my-app/index.html",
+    "main.3beb979c.css.map": "/my-app/static/css/main.3beb979c.css.map",
+    "main.fc71ffe8.js.map": "/my-app/static/js/main.fc71ffe8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3beb979c.css",
+    "static/js/main.fc71ffe8.js"
+  ]
+}
