@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.cfda9241.css",
+    "main.css": "/my-app/static/css/main.1c2c33dc.css",
     "main.js": "/my-app/static/js/main.41220a32.js",
     "static/media/Netflix_DashBoard.png": "/my-app/static/media/Netflix_DashBoard.2b809a4e4bc7a39b3317.png",
     "static/media/Resume-review.png": "/my-app/static/media/Resume-review.4b5fe927f928c54df179.png",
@@ -11,11 +11,11 @@
     "static/media/checkmark.png": "/my-app/static/media/checkmark.86728d9a224a2c7c95d4.png",
     "static/media/linkedin.png": "/my-app/static/media/linkedin.032cf8a63be2f0f4d425.png",
     "index.html": "/my-app/index.html",
-    "main.cfda9241.css.map": "/my-app/static/css/main.cfda9241.css.map",
+    "main.1c2c33dc.css.map": "/my-app/static/css/main.1c2c33dc.css.map",
     "main.41220a32.js.map": "/my-app/static/js/main.41220a32.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfda9241.css",
+    "static/css/main.1c2c33dc.css",
     "static/js/main.41220a32.js"
   ]
 }
