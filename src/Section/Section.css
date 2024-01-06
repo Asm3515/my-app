@@ -229,12 +229,12 @@ article {
 
 article .icon {
   cursor: default;
-  height: 1.0rem;
+  height: 0.5rem;
 }
 
 .article-text{
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 0.5rem;
 }
 
 
