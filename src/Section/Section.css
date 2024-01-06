@@ -232,6 +232,11 @@ article .icon {
   height: 0.5rem;
 }
 
+
+#experience .article-text{
+  font-size: 0.5rem;
+}
+
 .article-text{
   text-align: center;
   font-size: 0.5rem;
