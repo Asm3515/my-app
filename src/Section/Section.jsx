@@ -418,10 +418,10 @@ const Section = () => {
         </div>
       </div>
     </section>
-    <footer>
+    <footer className='footer'>
       <nav>
-        <div className="nav-links-container">
-          <ul className="nav-links">
+        <div className="nav-links-footer">
+          <ul className="nav-links-end">
               <li><a onClick={() => scrollToSection('about')}>About</a></li>
               <li><a onClick={() => scrollToSection('experience')}>Experience</a></li>
               <li><a onClick={() => scrollToSection('projects')}>Projects</a></li>

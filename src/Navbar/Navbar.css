@@ -8,10 +8,11 @@ nav {
   }
   
   .nav-links {
-    /* display: flex; */
+    display: flex;
     gap: 2rem;
     font-size: 1.5rem;
     list-style-type: none;
+    margin-right: 2%;
   }
   
   a {
@@ -29,13 +30,13 @@ nav {
   .logo {
     font-size: 1.5rem;
     text-align: left;
-    /* display: flex; */
+    display: flex;
     align-items: center;
     padding: 10px;
   }
   
   .logo .name {
-    margin-right: 50%; 
+    margin-right: auto; 
   }
   
   .logo:hover {
@@ -64,6 +65,19 @@ nav {
 
 /* Media query for mobile responsiveness */
 @media screen and (max-width: 1200px) {
+    nav {
+      /* display: flex; */
+      justify-content: center;
+      align-items: center;
+      height: 17vh;
+    }
+    
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      font-size: 1.5rem;
+      list-style-type: none;
+    }
     .nav-links{
         align-items: 50%;
     };

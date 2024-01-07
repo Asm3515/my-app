@@ -166,7 +166,7 @@ section {
   padding: 1.5rem;
   font-size: 1rem;
   flex: 1;
-  background: white;
+  /* background: white; */
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -257,7 +257,7 @@ article .icon {
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+  /* background: rgb(250, 250, 250); */
   margin: 2rem auto;
   padding: 0.5rem;
 }
@@ -320,3 +320,17 @@ footer p {
   margin-left: auto;
   margin-right: auto;
 }
+
+.footer{
+  text-align: center;
+  
+}
+
+.nav-links-end{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap:2%;
+}
+
+

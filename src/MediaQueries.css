@@ -112,3 +112,9 @@
     height: 250px;
     width: 250px;;
   }
+
+  .nav-links-end {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
