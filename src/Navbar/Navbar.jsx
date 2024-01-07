@@ -30,7 +30,7 @@ export const Navbar = () => {
               <li><a onClick={() => scrollToSection('contact')}>Contact</a></li>
         </ul>
       </div>
-      <nav className='hamburger-nav'>
+      {/* <nav className='hamburger-nav'>
         <div className='hamburger-menu'>
             <div className='hamburger-icon' onClick={toggleMenu}>
                 <span></span>
@@ -44,7 +44,7 @@ export const Navbar = () => {
                 </div>
             </div>
         </div>
-      </nav>
+      </nav> */}
     </nav>
     </nav>
   );
