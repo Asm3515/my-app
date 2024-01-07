@@ -72,12 +72,9 @@ nav {
       height: 17vh;
     }
     
-    .nav-links {
-      display: flex;
-      gap: 2rem;
-      font-size: 1.5rem;
-      list-style-type: none;
-    }
+    .nav-links [
+      display: none;
+    ]
     .nav-links{
         align-items: 50%;
     };
@@ -89,7 +86,10 @@ nav {
     };
 
     .menu-links {
-        display: flex;
+      display: flex;
+      gap: 2rem;
+      font-size: 1.5rem;
+      list-style-type: none;
     }
   }
 
