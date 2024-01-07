@@ -84,7 +84,7 @@ const Section = () => {
                 className="icon"
               />
               <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree<br />Mumbai University<br />GPA - 7.5</p>
+              <p>B.E. Bachelors Degree<br />Mumbai University<br />GPA - 7.5</p>
             </div>
             
           </div>
