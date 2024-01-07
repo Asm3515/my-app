@@ -1,6 +1,7 @@
 import { Navbar } from "./Navbar/Navbar";
 import Section  from "./Section/Section";
 import "./App.css"
+import "./MediaQueries.css"
 
 function App() {
   return (
