@@ -1,14 +1,14 @@
 /* Navbar.css */
 
 nav {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     height: 17vh;
   }
   
   .nav-links {
-    display: flex;
+    /* display: flex; */
     gap: 2rem;
     font-size: 1.5rem;
     list-style-type: none;
@@ -29,13 +29,13 @@ nav {
   .logo {
     font-size: 1.5rem;
     text-align: left;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     padding: 10px;
   }
   
   .logo .name {
-    margin-right: 42rem; 
+    margin-right: 50%; 
   }
   
   .logo:hover {
@@ -65,7 +65,7 @@ nav {
 /* Media query for mobile responsiveness */
 @media screen and (max-width: 1200px) {
     .nav-links{
-        display: none;
+        align-items: 50%;
     };
     .hamburger-nav{
         display: flex;
@@ -84,3 +84,5 @@ nav {
     width: 300px;
     border-radius: 80%;
   }
+
+  

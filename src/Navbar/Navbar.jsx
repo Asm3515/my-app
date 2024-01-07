@@ -19,7 +19,7 @@ export const Navbar = () => {
     }
   };
   return (
-    <nav className='desktop-nav'>
+    <nav>
     <nav>
       <div className="logo">
         <div className="name">Ajinkya More</div>

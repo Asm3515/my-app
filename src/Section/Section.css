@@ -9,10 +9,7 @@ section {
   min-height: fit-content;
 }
 
-.section-container {
-  display: flex;
-  
-}
+
 
 .profile-pic{
   border-radius:400%;
@@ -216,7 +213,7 @@ section {
 }
 
 .article-container > div {
-  width: 30%; /* Adjust the width of each div to control the layout */
+  width: 30%; 
 }
 
 article {
@@ -316,4 +313,10 @@ footer p {
 
 .last-link{
   align-items: center;
+}
+
+.profile-pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
