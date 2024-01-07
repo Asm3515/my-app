@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-app/static/css/main.c8299e66.css",
-    "main.js": "/my-app/static/js/main.dc690d7a.js",
+    "main.js": "/my-app/static/js/main.a42e4210.js",
     "static/media/Netflix_DashBoard.png": "/my-app/static/media/Netflix_DashBoard.2b809a4e4bc7a39b3317.png",
     "static/media/Resume-review.png": "/my-app/static/media/Resume-review.4b5fe927f928c54df179.png",
     "static/media/HeartDis.jpg": "/my-app/static/media/HeartDis.da1f494e61ba3988e66a.jpg",
@@ -12,10 +12,10 @@
     "static/media/linkedin.png": "/my-app/static/media/linkedin.032cf8a63be2f0f4d425.png",
     "index.html": "/my-app/index.html",
     "main.c8299e66.css.map": "/my-app/static/css/main.c8299e66.css.map",
-    "main.dc690d7a.js.map": "/my-app/static/js/main.dc690d7a.js.map"
+    "main.a42e4210.js.map": "/my-app/static/js/main.a42e4210.js.map"
   },
   "entrypoints": [
     "static/css/main.c8299e66.css",
-    "static/js/main.dc690d7a.js"
+    "static/js/main.a42e4210.js"
   ]
 }
