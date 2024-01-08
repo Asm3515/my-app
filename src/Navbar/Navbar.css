@@ -150,8 +150,7 @@ nav {
   
 
   .open .hamburger-span {
-    background: blue;
-    width: 0px;
+    height: 0px;
   }
   
   
