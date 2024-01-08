@@ -1,5 +1,10 @@
 /* Navbar.css */
 
+
+span{
+  display: none;
+}
+
 nav {
     /* display: flex; */
     justify-content: center;
@@ -31,7 +36,7 @@ nav {
     font-size: 1.5rem;
     text-align: left;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     padding: 10px;
   }
   
@@ -54,7 +59,7 @@ nav {
   }
 
   .hamburger-icon{
-    display: felx;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 24;
@@ -62,41 +67,94 @@ nav {
     cursor: pointer;
   }
 
-
-/* Media query for mobile responsiveness */
-@media screen and (max-width: 1200px) {
-    nav {
-      /* display: flex; */
-      justify-content: center;
-      align-items: center;
-      height: 17vh;
-    }
-    
-    .nav-links {
-      display: flex;
-      gap: 2rem;
-      font-size: 1.5rem;
-      list-style-type: none;
-  }
-    .nav-links{
-        align-items: 50%;
-    };
-    .hamburger-nav{
-        display: flex;
-    };
-    .hamburger-icon {
-        display: flex; 
-    };
-
-    .menu-links {
-      display: none;
-    }
-  }
-
-  .profile-pic{
-    height: 300px;
-    width: 300px;
-    border-radius: 80%;
+  .open .hamburger-links{
+    display: inline-table;
   }
 
   
+
+  
+
+/* Media query for mobile responsiveness */
+
+@media screen and (max-width: 700px){
+  .hamburger-links{
+    display: none;
+  }
+  
+  
+  .hamburger-span{
+    align-self: flex-end;
+    display: block;
+    height: 4px;
+    width: 30px;
+    border-radius: 2px;
+    background: orange ;
+    position: relative;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    
+  }
+  .hamburger-span::after{
+    margin-left:-15px;
+    height: 4px;
+    width: 30px;
+    background: orange;
+    top: 8px;
+    position: absolute;
+    content: " ";
+    border-radius: 2px;
+    transition: all 0.3s ease-in;
+  }
+
+  .hamburger-span::before{
+    margin-left:-15px;
+    height: 4px;
+    width: 30px;
+    background: orange;
+    top: -8px;
+    position: absolute;
+    content: " ";
+    border-radius: 2px;
+    transition: all 0.3s ease-in;
+
+
+    .logo {
+      flex-direction: column; /* Stack logo elements vertically */
+      align-items: flex-start; /* Align logo elements to the start */
+    }
+  
+    .logo .name {
+      margin-right: 0; /* Remove margin to prevent shifting */
+      margin-bottom: 5px; /* Add some spacing between name and hamburger icon */
+    }
+  
+  
+
+    
+
+    
+
+  
+}
+
+   
+  .open::before {
+    transform: rotate(45deg) translate(11px);
+  }
+  
+  .open::after {
+    transform: rotate(-45deg) translate(11px);
+  }
+  
+
+  .open .hamburger-span {
+    background: blue;
+  }
+  
+  
+  
+
+  
+}
