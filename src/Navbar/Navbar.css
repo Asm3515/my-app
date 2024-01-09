@@ -21,13 +21,13 @@ nav {
   }
   
   a {
-    color: white;
+    color: #F05941;
     text-decoration: none;
     text-decoration-color: black;
   }
   
   a:hover {
-    color: gray;
+    color: #872341;
     text-decoration: underline;
     text-underline-offset: 1rem;
   }
@@ -42,8 +42,9 @@ nav {
   
   .logo .name {
     margin-right: auto; 
+    color: #F05941;
+    
   }
-  
   .logo:hover {
     cursor: default;
   }
@@ -80,6 +81,7 @@ nav {
 @media screen and (max-width: 700px){
   .hamburger-links{
     display: none;
+    color: orange;
   }
   
   
@@ -126,7 +128,7 @@ nav {
     }
   
     .logo .name {
-      margin-right: 0; /* Remove margin to prevent shifting */
+       /* Remove margin to prevent shifting */
       margin-bottom: 5px; /* Add some spacing between name and hamburger icon */
     }
   

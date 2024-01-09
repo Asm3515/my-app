@@ -10,7 +10,9 @@ section {
 }
 
 
-
+h3{
+  color: #F05941;
+}
 .profile-pic{
   border-radius:400%;
   height: 300px;
@@ -60,6 +62,7 @@ section {
 .title {
   font-size: 1.1rem;
   text-align: center;
+  color: #F05941;
   
 }
 
@@ -96,7 +99,7 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: #F05941 0.1rem solid;
 }
 
 .btn-color-1:hover,
@@ -105,25 +108,27 @@ section {
 }
 
 .btn-color-1,
-.btn-color-2:hover {
+.btn-color-2 {
   background: rgb(53, 53, 53);
-  color: white;
+  color: #F05941;
 }
 
 .btn-color-1:hover {
-  background: rgb(0, 0, 0);
+  background: rgb(53, 53, 53);
+  color: #F05941;
 }
 
-.btn-color-2 {
-  background: none;
+.btn-color-1:hover {
+  border: #FAEF5D 0.1rem solid;
 }
 
 .btn-color-2:hover {
-  border: rgb(255, 255, 255) 0.1rem solid;
+  border: #FAEF5D 0.1rem solid;
 }
 
 .btn-container {
   gap: 1rem;
+  color: F05941;
 }
 
 
@@ -190,7 +195,7 @@ section {
 }
 
 .experience-sub-title {
-  color: rgb(85, 85, 85);
+  color: #F05941;
   font-weight: 600;
   font-size: 1.5rem;
   margin-bottom: 2rem;
